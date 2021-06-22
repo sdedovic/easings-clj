@@ -16,4 +16,4 @@ A Clojure port of the [easings.net](easings.net) easing functions. Orignal sourc
 - (2021-06-21): Bounce functions
 
 ## Proof it Works
-![docs/render.jpg][docs/render.jpg]
+![docs/render.jpg](./docs/render.jpg)
