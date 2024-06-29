@@ -1,5 +1,5 @@
 (ns easings.core
-  (:require [easings.math :refer :all]))
+  (:require [easings.math :refer [cos PI pow sin sqrt]]))
 
 ;;;;========
 ;;;; Sine
