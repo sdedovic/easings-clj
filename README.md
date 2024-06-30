@@ -32,8 +32,16 @@ Maven
 (ease/ease-in-sine 0.2)
 ```
 
-## Cljs tests
+## Tests
 
+### Clojure
+On the commandline, run the CLJ tess:
+
+```console
+lein test
+```
+
+### Clojurescript
 On the commandline, compile (and autorun) the node test build:
 
 ```console
