@@ -7,6 +7,9 @@
   :source-paths ["src" "examples"]
   :java-source-paths ["src"]
   :profiles {:examples {:dependencies [[quil/quil "4.3.1563"]]
-                        :source-paths ["src" "examples"]}}
+                        :source-paths ["src" "examples"]}
+             :cljs {:source-paths ["src" "test"]
+                    :dependencies [#_[org.clojure/clojurescript "1.11.123"] ;; TODO: Make cljs dep explicit
+                                   [thheller/shadow-cljs "2.28.10"]]}}
 
   :aot :all)

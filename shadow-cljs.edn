@@ -1,10 +1,5 @@
 ;; shadow-cljs configuration
-{:source-paths
- ["src" "test"]
-
- :dependencies
- []
-
+{:lein {:profile "+cljs"}
  :builds
  {:tests {:target    :node-test
           :output-to "out/node-test.js"
