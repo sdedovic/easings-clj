@@ -4,11 +4,9 @@
   :license {:name "GNU General Public License v3.0"
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
   :dependencies [[org.clojure/clojure "1.11.3"]]
-  :source-paths ["src/clj" "examples"]
-  :java-source-paths ["src/java"]
-  :resource-paths ["resources"]
-
-  :profiles {:examples {:dependencies [[quil "4.3.1563"]]
-                        :source-paths ["src/clj" "examples"]}}
+  :source-paths ["src" "examples"]
+  :java-source-paths ["src"]
+  :profiles {:examples {:dependencies [[quil/quil "4.3.1563"]]
+                        :source-paths ["src" "examples"]}}
 
   :aot :all)
