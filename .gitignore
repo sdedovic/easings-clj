@@ -13,3 +13,8 @@ pom.xml.asc
 .hgignore
 .hg/
 .idea/
+/set-java-17
+/node_modules/
+/.lsp/
+/.clj-kondo/
+.shadow-cljs/
