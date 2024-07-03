@@ -2,7 +2,7 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.dedovic/easings-clj.svg)](https://clojars.org/com.dedovic/easings-clj)
 
-A Clojure port of the [easings.net](easings.net) easing functions. Orignal source code may be found at [ai/easings.net](https://github.com/ai/easings.net).
+A Clojure port of the [easings.net](https://easings.net) easing functions. Orignal source code may be found at [ai/easings.net](https://github.com/ai/easings.net).
 
 ## Install
 Leiningen/Boot
