@@ -1,8 +1,12 @@
-(defproject com.dedovic/easings-clj "0.2.0"
+(defproject com.dedovic/easings-clj "0.2.1-SNAPSHOT"
   :description ""
   :url "https://github.com/sdedovic/easings-clj"
   :license {:name "GNU General Public License v3.0"
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
+  :deploy-repositories [["releases"  {:sign-releases false 
+                                      :url "https://clojars.org/repo"
+                                      :username :env/clojars_user
+                                      :password :env/clojars_token}]]
   :dependencies [[org.clojure/clojure "1.11.3"]]
   :source-paths ["src"]
   :test-paths ["test"]
