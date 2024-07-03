@@ -7,22 +7,22 @@ A Clojure port of the [easings.net](https://easings.net) easing functions. Orign
 ## Install
 Leiningen/Boot
 ```clojure
-[com.dedovic/easings-clj "0.1.0"]
+[com.dedovic/easings-clj "0.2.0"]
 ```
 Clojure CLI/deps.edn
 ```clojure
-com.dedovic/easings-clj {:mvn/version "0.1.0"}
+com.dedovic/easings-clj {:mvn/version "0.2.0"}
 ```
 Gradle
 ```groovy
-compile 'com.dedovic:easings-clj:0.1.0'
+compile 'com.dedovic:easings-clj:0.2.0'
 ```
 Maven
 ```xml
 <dependency>
   <groupId>com.dedovic</groupId>
   <artifactId>easings-clj</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 ## Using
