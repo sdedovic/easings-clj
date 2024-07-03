@@ -74,4 +74,4 @@ npx shadow-cljs compile tests
 - (2021-06-21): Bounce functions
 
 ## Proof it Works
-![docs/render.jpg](./docs/render.jpg)
+![docs/render.jpg](./docs/render.png)
