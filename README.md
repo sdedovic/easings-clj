@@ -44,15 +44,14 @@ Maven
 
 ## Changelog
 ### [Unreleased]
+### [0.2.0] - 2024-07-03
 #### Added
+- support Clojurescript via shadow-cljs
 - better example using [Quil](quil.info)
-- added `shadow-cljs.edn`, `package.json`, etc. for cljs library
-- unit tests for both cljs and clj
 #### Changed
 - Renamed core easing functions to `.cljc` file extension to support cross-platform usage
 - Replaced hard-coded Math functions with `math.cljc` namespace that uses reader conditional to either consume Java or JavaScript standard libraries
 - Added Changelog, Included Functions sections to README
-- restructure src directory
 ### [0.1.0] - 2021-06-23
 Added:
 - initial release
