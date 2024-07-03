@@ -1,6 +1,6 @@
 (ns demo.dynamic
   (:require [quil.core :as q]
-             [easings.core :as ease]))
+            [easings.core :as ease]))
 
 ;; https://github.com/thobbs/genartlib/blob/master/src/clj/genartlib/util.clj
 (defn h

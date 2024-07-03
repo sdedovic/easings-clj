@@ -32,34 +32,32 @@ Maven
 (ease/ease-in-sine 0.2)
 ```
 
-## Included Functions
-- `ease-[in|out|in-out]-sine`
-- `ease-[in|out|in-out]-quad`
-- `ease-[in|out|in-out]-cubic`
-- `ease-[in|out|in-out]-quart`
-- `ease-[in|out|in-out]-quint`
-- `ease-[in|out|in-out]-expo`
-- `ease-[in|out|in-out]-circ`
-- `ease-[in|out|in-out]-back`
+## Tests
 
-## Changelog
-### Unreleased
-#### Added
-- better example with Quil.info
-#### Changed
-- Renamed core easing functions to `.cljc` file extension to support cross-platform usage.
-- Replaced hard-coded Math functions with `math.cljc` namespace that uses reader conditional to either consume Java or JavaScript standard libraries.
-- Added Changelog, Included Functions sections to readme.
+### Clojure
+On the commandline, run the CLJ tess:
 
-**0.1.0**
-Added:
-- initial release
+```console
+lein test
+```
 
-## TODO
-- (2021-06-21): Unit tests?
+### Clojurescript
+On the commandline, compile (and autorun) the node test build:
+
+```console
+npx shadow-cljs compile tests
+```
+or simply
+```console
+./compile-tests
+```
+
+## TODO:
+- (2024-06-29): Unit tests in clj?
+- (2021-06-21): Elastic functions
+- *(2021-06-21): Unit tests? => Done in cljs*
 - (2021-06-21): Elastic functions
 - (2021-06-21): Bounce functions
 
 ## Proof it Works
-[./examples/demo/](examples/demo)
-![docs/render.png](./docs/render.png)
+![docs/render.jpg](./docs/render.jpg)

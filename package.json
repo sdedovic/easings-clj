@@ -1,0 +1,27 @@
+{
+  "name": "easings-cljc",
+  "version": "1.0.0",
+  "description": "[![Clojars Project](https://img.shields.io/clojars/v/com.dedovic/easings-clj.svg)](https://clojars.org/com.dedovic/easings-clj)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verberktstan/easings-cljc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verberktstan/easings-cljc/issues"
+  },
+  "homepage": "https://github.com/verberktstan/easings-cljc#readme",
+  "devDependencies": {
+    "shadow-cljs": "^2.28.10"
+  }
+}
