@@ -32,30 +32,44 @@ Maven
 (ease/ease-in-sine 0.2)
 ```
 
-## Tests
+### Included Functions
+- `ease-[in|out|in-out]-sine`
+- `ease-[in|out|in-out]-quad`
+- `ease-[in|out|in-out]-cubic`
+- `ease-[in|out|in-out]-quart`
+- `ease-[in|out|in-out]-quint`
+- `ease-[in|out|in-out]-expo`
+- `ease-[in|out|in-out]-circ`
+- `ease-[in|out|in-out]-back`
 
-### Clojure
-On the commandline, run the CLJ tess:
+## Changelog
+### [Unreleased]
+#### Added
+- better example using [Quil](quil.info)
+- added `shadow-cljs.edn`, `package.json`, etc. for cljs library
+- unit tests for both cljs and clj
+#### Changed
+- Renamed core easing functions to `.cljc` file extension to support cross-platform usage
+- Replaced hard-coded Math functions with `math.cljc` namespace that uses reader conditional to either consume Java or JavaScript standard libraries
+- Added Changelog, Included Functions sections to README
+- restructure src directory
+### [0.1.0] - 2021-06-23
+Added:
+- initial release
 
+## Contributing
+### Testing
+#### Clojure
 ```console
 lein test
 ```
 
-### Clojurescript
-On the commandline, compile (and autorun) the node test build:
-
+#### Clojurescript
 ```console
 npx shadow-cljs compile tests
 ```
-or simply
-```console
-./compile-tests
-```
 
 ## TODO:
-- (2024-06-29): Unit tests in clj?
-- (2021-06-21): Elastic functions
-- *(2021-06-21): Unit tests? => Done in cljs*
 - (2021-06-21): Elastic functions
 - (2021-06-21): Bounce functions
 

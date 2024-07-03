@@ -2,6 +2,6 @@
 {:lein {:profile "+cljs"}
  :builds
  {:tests {:target    :node-test
-          :output-to "out/node-test.js"
+          :output-to "target/node-test.js"
           :ns-regexp "-test$"
           :autorun   true}}}

@@ -4,10 +4,15 @@
 
 (def INPUTS [0 0.12 0.5 0.93 1])
 
+(defn- equal-f? 
+  "Returns true if two provided floats are equal, up to 6 decimal places."
+  [a b]
+  (< (abs (- a b)) 1e-6))
+
 (defn- equal?
   "Returns true if every numerical value in results is equal (with ==) to inputs."
   [results inputs]
-  (->> (map == results inputs)
+  (->> (map equal-f? results inputs)
        (every? true?)))
 
 (deftest sine
